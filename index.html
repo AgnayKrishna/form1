@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h2>Form</h2>
+    <form action="/action_page.php">
+        <!-- First Name -->
+        
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" ><br>
+        <br><br>
+
+        <!-- Last Name -->
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" ><br><br>
+        <br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Date -->
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+
+        
+
+
+        <label for="City">City:</label>
+        <select id="city" name="city" required>
+            <option value="">Select your city</option>
+            <option value="Riga">Riga</option>
+            <option value="Jurmala">Jurmala</option>
+            <option value="Tukums">Tukums</option>
+            <option value="Liepaja">Liepaja</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+
+        <!-- Gender -->
+       
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+        <br><br>
+
+        <!-- Country -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="Latvia">Latvia</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+        
+    </form>
+</body>
+</html>
